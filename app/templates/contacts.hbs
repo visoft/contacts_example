@@ -1,2 +1,3 @@
-{{outlet}}
-hey now
+{{#each contact in model}}
+  <div class="contact">{{contact.fullName}}</div>
+{{/each}}
